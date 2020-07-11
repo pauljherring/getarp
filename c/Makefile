@@ -102,6 +102,8 @@ EXCEPTION_FLAGS = \
 
 CFLAGS+= $(WARNING_FLAGS) $(EXCEPTION_FLAGS) -g
 
+build: getarp
+
 clean:
 	$(RM) getarp
 
